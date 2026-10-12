@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "anatomy-codex",
+  "version": "0.1.0",
+  "description": "Craft detailed, interactive isometric SVG figures with the Anatomy skill and its complete geometry and verification toolkit.",
+  "author": {
+    "name": "Pedro Gonzalez"
+  },
+  "license": "MIT",
+  "keywords": [
+    "anatomy",
+    "isometric",
+    "svg",
+    "technical-illustration",
+    "interactive-explainer"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Anatomy for Codex",
+        "shortDescription": "Interactive isometric figures",
+        "longDescription": "Create detailed interactive isometric SVG explainers that make technical ideas understandable as physical instruments and machines. Includes the complete geometry kit, eight examples, React and standalone workflows, WebGL guidance, and geometry and browser verification tools. Original Anatomy by Ryan (@wheresryan22), MIT licensed; packaged for Codex by Pedro Gonzalez. Building requires a local Node.js runtime; browser checks require Chrome or Chromium.",
+        "developerName": "Pedro Gonzalez",
+        "category": "Design",
+        "capabilities": [
+          "Interactive"
+        ],
+        "logo": "./assets/icon-light.svg",
+        "logoDark": "./assets/icon-dark.svg",
+        "composerIcon": "./assets/icon-light.svg",
+        "composerIconDark": "./assets/icon-dark.svg",
+        "brandColor": "#0F766E",
+        "brandColorDark": "#2DD4BF",
+        "defaultPrompt": [
+          "Explain how a pin tumbler lock works as an interactive isometric instrument.",
+          "Create a detailed isometric SVG figure explaining a CPU cache.",
+          "Build a light and dark interactive technical figure with Anatomy."
+        ]
+      }
+    }
+  }
+}

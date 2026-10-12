@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anatomy"
+  short_description: "Detailed interactive isometric SVG explainers"
+  default_prompt: "Use $anatomy to explain how a pin tumbler lock opens as an interactive isometric figure."
